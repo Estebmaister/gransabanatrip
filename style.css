@@ -1,0 +1,164 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  height: 100vh;
+  width: 4000vw;
+  display: flex;
+  flex-flow: column wrap;
+  z-index: -3;
+  background: linear-gradient(#ffd272, #ffaf96, #ffcfdf, #b0f3f1 55%);
+}
+
+.bg {
+  background: url(https://raw.githubusercontent.com/CxSG/Animations/master/bg.svg);
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 100vw;
+  width: 4000vw;
+  z-index: 1;
+  margin-top: 1.5em;
+  margin-right: 10em;
+}
+.nubes {
+  z-index: 2;
+}
+
+.sun {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  background: radial-gradient(circle at 100%, #ffd272 40%, #ffaf96);
+  position: fixed;
+  margin: 5em 0 0 10em;
+  z-index: 0;
+}
+
+.machito {
+  position: fixed;
+  z-index: 2;
+  height: 150%;
+  margin-top: 2.5em;
+}
+
+.cls-4 {
+  fill: #a25439;
+}
+.cls-3 {
+  fill: #e06244;
+}
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6 {
+  stroke: #7f4925;
+}
+.cls-3,
+.cls-33,
+.cls-4,
+.cls-46,
+.cls-5,
+.cls-6 {
+  stroke-miterlimit: 10;
+}
+.cls-5 {
+  fill: #e2865d;
+}
+.cls-6 {
+  fill: #af6854;
+}
+.cls-11 {
+  opacity: 0.9;
+}
+.cls-12 {
+  fill: #fcfcfc;
+}
+.cls-13 {
+  fill: #f9f9fa;
+}
+.cls-14 {
+  fill: #fbfbfc;
+}
+.cls-15 {
+  fill: #f0f1f3;
+}
+.cls-16 {
+  fill: #f2f3f4;
+}
+.cls-17 {
+  fill: #f1f2f4;
+}
+.cls-18 {
+  fill: #f3f4f5;
+}
+.cls-19 {
+  fill: #f6f7f8;
+}
+.cls-20 {
+  fill: #f5f6f7;
+}
+.cls-21 {
+  fill: #f8f8f9;
+}
+.cls-22 {
+  fill: #fafafa;
+}
+.cls-24 {
+  fill: #161616;
+}
+.cls-27 {
+  fill: #6b6b6b;
+}
+.cls-28 {
+  fill: #2d2d2d;
+}
+.cls-29 {
+  fill: #c6c8c9;
+}
+.cls-30 {
+  fill: #fff;
+}
+.cls-31 {
+  fill: #f90;
+}
+.cls-33 {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+}
+.cls-35 {
+  fill: #b7b7b7;
+}
+.cls-36 {
+  fill: #eaeaea;
+}
+.cls-38 {
+  fill: #a5a4a8;
+}
+.cls-43 {
+  fill: #231f20;
+}
+.cls-45 {
+  fill: #262626;
+}
+.cls-46 {
+  fill: #381d0e;
+  stroke: #c1a990;
+  stroke-width: 0.25px;
+}
+.cls-49 {
+  fill: #facbcb;
+}
+
+@media (min-height: 320px) {
+  .machito {
+    margin-top: 5em;
+  }
+}
+
+@media (min-height: 500px) {
+  .machito {
+    margin-top: 10em;
+  }
+}
